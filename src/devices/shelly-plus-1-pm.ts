@@ -46,3 +46,15 @@ export class ShellyPlus1PmUl extends ShellyPlus1Pm {
 }
 
 Device.registerClass(ShellyPlus1PmUl);
+
+export class ShellyPlus1PmMini extends ShellyPlus1Pm {
+  static readonly model: string = 'SNSW-001P8EU';
+}
+
+Device.registerClass(ShellyPlus1PmMini);
+
+export class ShellyPlus1PmMiniGen3 extends ShellyPlus1Pm {
+  static readonly model: string = "S3SW-001P8EU";
+}
+
+Device.registerClass(ShellyPlus1PmMiniGen3);
